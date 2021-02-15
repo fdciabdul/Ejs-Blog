@@ -1,0 +1,12 @@
+{
+    "blog": {
+        "title": "Blog",
+        "banner": "/resource/img/banner.jpg",
+        "articlesData": "./articles.json",
+        "dateFormat": "YYYY/MM/DD HH:mm:ss"
+    },
+    "account": {
+        "acc": "admin",
+        "pwd": "admin"
+    }
+}
