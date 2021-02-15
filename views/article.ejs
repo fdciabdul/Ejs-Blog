@@ -1,0 +1,30 @@
+
+        <%- include head.ejs %>
+        <div class="col-md-6 col-sm-12">
+            <div class="card">
+                <div class="card-content">
+                     <div class="card-body">
+                        <h4 class="card-title"><%= aa.name %></h4>
+                            <p class="card-text">  <%- content %></p>
+               
+            </div>
+        </div>
+    </div>
+</div>
+   
+     
+                <div class="col-md-4">
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                            <% for(i of shortcuts){ %>
+                                <li class="list-group-item">
+                                    <a href="<%= i.href %>"><%= i.text %></a>
+                                </li>
+                            <% } %>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
